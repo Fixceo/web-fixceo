@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixceo - Técnico de Celulares</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #005fa3;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .card {
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .producto {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1rem;
+      text-align: center;
+      background-color: #fff;
+    }
+    .producto img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+    .whatsapp {
+      display: block;
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .whatsapp a {
+      background-color: #25D366;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 50px;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fixceo</h1>
+    <p>Servicio Técnico y Venta de Celulares</p>
+  </header>
+
+  <nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#tienda">Tienda</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <div class="container">
+    <section class="card" id="servicios">
+      <h2>Servicios Técnicos</h2>
+      <ul>
+        <li>Reparación de módulo</li>
+        <li>Cambio de batería</li>
+        <li>Reparación de placa de carga</li>
+        <li>Reparación de pin de carga</li>
+        <li>Desbloqueo de patrón</li>
+        <li>Servicio para iPhone</li>
+      </ul>
+    </section>
+
+    <section class="card" id="tienda">
+      <h2>Tienda Online</h2>
+      <div class="productos">
+        <div class="producto">
+          <img src="https://via.placeholder.com/200x200?text=Celular+Samsung" alt="Celular Samsung">
+          <h3>Samsung Galaxy A10</h3>
+          <p>$85.000</p>
+        </div>
+        <div class="producto">
+          <img src="https://via.placeholder.com/200x200?text=Celular+iPhone" alt="iPhone">
+          <h3>iPhone 8</h3>
+          <p>$120.000</p>
+        </div>
+        <div class="producto">
+          <img src="https://via.placeholder.com/200x200?text=Accesorio+Cargador" alt="Cargador">
+          <h3>Cargador Rápido</h3>
+          <p>$5.000</p>
+        </div>
+        <div class="producto">
+          <img src="https://via.placeholder.com/200x200?text=Auriculares" alt="Auriculares">
+          <h3>Auriculares Bluetooth</h3>
+          <p>$7.000</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="contacto">
+      <h2>Contacto</h2>
+      <p>La Plata, Buenos Aires</p>
+      <p>WhatsApp: <a href="https://wa.me/542215665926">+54 9 221 566 5926</a></p>
+    </section>
+  </div>
+
+  <div class="whatsapp">
+    <a href="https://wa.me/542215665926">📲 Contactar por WhatsApp</a>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Fixceo. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
